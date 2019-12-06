@@ -1,0 +1,306 @@
+/* Estilo 3 */
+
+*{
+  box-sizing: border-box;
+}
+
+.principal{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+/* Comienzo del header */
+.encabezado{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.logo{
+  background: url(../imagenes/nysl_logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 20px;
+  top: 80px;
+  flex: 1 1 auto;
+}
+
+.banner{
+  background: url(../imagenes/design2_image1.jpg);
+  background-repeat: no-repeat; 
+  background-size:cover;
+  height: 320px;
+  flex: 4 1 auto;
+}
+
+h1{ 
+  font-family: sans-serif;
+  font-size: 50px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 10px;
+  color: whitesmoke;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/*Diseño de la barra de navegacion */
+.navegacion{
+  background: black;
+  padding: 10px;
+}
+
+.botones{
+  font-family: sans-serif;
+  font-size: 25px;
+  color: white;
+  margin: 30px;
+  text-decoration:none;
+}
+
+.decoracion{
+  color:cornflowerblue;
+  font-weight: bold;
+}
+
+.subtitulo{
+  background-color: darkblue;
+  height: 50px;
+}
+
+h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+/* Comienzo del main*/
+.contenedor{
+  background: url(../imagenes/soccer_image3.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.fotos{
+  background: url(../imagenes/soccer_image2.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+  height: 500px;
+  flex: 3 1 auto;
+}
+
+.informacion{
+  box-shadow: -16px -15px 82px -19px rgba(0,0,0,0.75);  
+  flex: 5 1 20%;
+  padding: 20px 20px 15px 15px;
+  margin: 40px;
+}
+
+h3{
+  font-family: sans-serif;
+  font-style: italic;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 20px;
+}
+
+h4{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h5{
+  font-family: sans-serif;
+  font-size: 19px;
+  margin: 5px 0px 0px 20px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 19px;
+  margin: 5px 0px 0px 20px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.colormail{
+  color:lightskyblue;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+/* estilos de las listas*/
+main li{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: justify;
+  width: 90%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+main ul{
+  list-style-type: square;
+  padding-left: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+main ol{
+  list-style-type: decimal;
+  padding-left: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+main ol ol{
+  list-style-type:lower-alpha;
+  padding-left: 50px;
+}
+
+main ul ul{
+  list-style-type:circle;
+  padding-left: 60px;
+}
+
+.negrita{
+  font-weight: bold;
+}
+
+#subrayado{
+  text-decoration: underline;
+}
+
+/* estilo de la tabla */
+main table{
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+main tr{
+  border: 2px solid white;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+main td{
+  background-color: rgba(0,0,0,0.2);
+  border: 2px solid white;
+  padding: 10px 50px 10px 10px;
+}
+
+main th{
+  border: 2px solid white;
+  background-color: rgba(0,0,0,0.8);
+  padding: 10px 50px 10px 10px;
+  width: 19%;
+}
+
+main thead{
+  font-weight: bold;
+}
+
+main table#t01 tr:nth-child(even) {
+  background-color: rgba(128,128,128,0.8);
+}
+
+main table#t01 tr:nth-child(odd) {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.align{
+  vertical-align: middle;
+}
+
+/*estilo de mapas*/
+main iframe{
+  width: 100%;
+  height: 70%; 
+  border: 0px;
+  cursor: pointer;
+}
+
+/*estilo del formulario*/
+fieldset{
+  font-family: sans-serif;
+  text-align: justify;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.info-style{
+  font-size: 18px;
+  border: 2px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+legend{
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+main #sign-style{
+  font-family: sans-serif;
+  color: white;
+  border: 2px solid red;
+  padding: 20px;
+}
+
+main input[type=submit] {
+  font-size: 18px;
+  font-style: italic;
+  width: 30%;
+  color: white;
+  background-color: rgba(10,100,10,0.7);
+  cursor: pointer;
+  float: right;
+}
+
+#first_name, #last_name, #street_address, #city, #zip_code, #birthday, #parent_guardian, #contact_phone, #e-mail, #sign_parent_guardian, #current_date {
+  font-size: 15px;
+  display: inline;
+  width: 40%;
+}
+
+#grade, #first-closest-school, #second-closest-school, #uniform, #jersey-size, #short-size{
+  font-family: sans-serif;
+  font-size: 15px;
+  width: 20%;
+}
+
+#inline{
+  display: inline;
+}
+
+
+
+h6{
+  font-family: sans-serif;
+  display: inline;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* footer */
+.pie{
+  background-color: black;
+  height: 10px;
+}
